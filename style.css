@@ -1,0 +1,280 @@
+:root {
+    --main-color: white;
+}
+
+html, body, * {
+    font-family: 'Kanit', sans-serif;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.mybg {
+    background-image: url(assets/img/mybg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    margin-bottom: 80px;
+    background-attachment: fixed;
+}
+
+.container {
+    text-align: center;
+    font-size: 15px;
+}
+
+.title {
+    color: var(--main-color);
+    font-size: 50px;
+    letter-spacing: 3px; 
+    font-weight: 600;
+    margin-bottom: -25px;
+}
+.description {
+    color: var(--main-color);
+    font-size: 27px;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.cv {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: var(--main-color);
+    letter-spacing: 1.5px;
+    background: #76b900;
+    border-radius: 24px;
+    margin-bottom: -25px;
+}
+
+.cv:hover {
+    color: rgb(170, 240, 213);
+    transition: 0.4s;
+    transform:scale(0.9);
+}
+
+.scrol {
+    font-size: 50px;
+    text-decoration: none;
+    color: var(--main-color);
+    margin-bottom: -25px;
+}
+
+.scrol:hover {
+    color: #76b900;
+    transition: 0.2s;
+}
+
+.picture {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    border: 5px solid #888;
+    background-size: cover;
+}
+
+.picture-myprofile {
+    background-image: url(assets/img/myprofile.jpeg);
+    border-radius: 50%;
+    background-size: cover;
+    background-color: #333333;
+    
+}
+
+.titledescription {
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 40px;
+}
+
+.subdescription {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    color: #76b900;
+    margin-top: -20px;
+}
+
+.image {
+    padding: 80px;
+    margin-top: -50px;
+    background-color: rgb(255, 253, 250);
+}
+.biodata {
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.subtitle{
+    list-style: none;
+}
+
+span {
+    color: #76b900;
+}
+
+.visi {
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 22%;
+    font-size: 20px;
+}
+
+.skil {
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 42%;
+    font-size: 20px;
+}
+
+.limerence {
+    height: 35px;
+    width: 600px;
+}
+
+.bayangan {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: -57px;
+    color: rgb(238, 238, 238);
+}
+
+.resume-title {
+    font-size: 30px;
+}
+.resume-item {
+    font-weight: 100;
+    letter-spacing: 1.2px;
+    font-weight: 400;
+    text-align: left;
+    font-size: 20px;
+}
+
+mark {
+    color: rgb(80, 80, 80);
+}
+
+teks {
+    font-size: 24px;
+    color: #76b900;
+}
+
+.litle {
+    margin-left: -12px;
+    letter-spacing: 1.2px;
+}
+
+.litle-web {
+    margin-left: 1px;
+    color: #76b900;
+    text-decoration: none;
+}
+
+.litle-web:hover {
+    color: #888;
+}
+
+.resume-pro {
+    position: absolute;
+    margin-left: 674px;
+    margin-top: 203px;
+    font-size: 20px;
+}
+
+.title-nav {
+    width: 788px;
+    overflow: hidden;
+}
+
+.header {
+    width: 100%;
+    overflow: hidden;
+    background: rgb(255, 253, 250);
+}
+
+.header .navigation {
+    float: right;
+    margin-top: 35px;
+    z-index: 10;
+}
+
+.header .navigation li {
+    float: right;
+    margin-left: 29px;
+    font-size: 17px;
+    display: block;
+}
+
+.header .navigation li a {
+    color: #f7f7f7;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 8px;
+}
+
+.header .navigation li a:hover {
+    transition: .5 ease-in;
+    transition: 0.3s;
+    border: 3px solid #76b900;
+}
+
+.tinggi {
+    height: 180px;
+}
+
+.lebar {
+    width: 380px;
+}
+
+.stack {
+    width: 1348px;
+    padding: 88px;
+    margin-top: -100px;
+}
+
+.title-contact {
+    width: 1350px;
+    height: 500px;
+    padding: 88px;
+    margin-top: -50px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+}
+.footer {
+    height: 300px;
+}
+.title-footer {
+    text-align: center;
+    color: #f7f7f7;
+}
+
+.media-footer {
+    text-align: center;
+    color: #f7f7f7;
+}
+
+.media-footer p a {
+    text-align: center;
+    text-decoration: none;
+    color: #76b900;
+    font-weight: 300;
+}
+
+.media-footer p a:hover {
+    color: #f7f7f7;
+    text-decoration: underline;
+    transition: 0.4s;
+}
