@@ -91,6 +91,10 @@ html, body, * {
     font-size: 40px;
 }
 
+.my-4{
+    margin-top: 7.5em;
+}
+
 .subdescription {
     text-align: center;
     font-size: 1.3em;
@@ -278,3 +282,4 @@ teks {
     text-decoration: underline;
     transition: 0.4s;
 }
+
