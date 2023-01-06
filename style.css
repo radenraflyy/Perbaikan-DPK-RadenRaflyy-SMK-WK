@@ -85,6 +85,8 @@ html, body, * {
     
 }
 
+
+
 .titledescription {
     text-align: center;
     letter-spacing: 1.5px;
@@ -187,7 +189,7 @@ teks {
 
 .resume-pro {
     position: absolute;
-    margin-left: 674px;
+    margin-left: 665px;
     margin-top: 203px;
     font-size: 20px;
 }
